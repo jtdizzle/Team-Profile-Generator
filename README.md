@@ -81,6 +81,6 @@ Questions
 If you have any questions, feel free to reach out via one of the following:
 
 Email: jtdizzle747@yahoo.com
-Github: jtdizzle
+Github: @jtdizzle
 License
 This application is distributed under the terms of the MIT License.
