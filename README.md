@@ -72,7 +72,7 @@ Optional fields: email addresses, manager's office number, engineers' GitHub use
 Email addresses must have an atmark (@) surrounded by at least one alphanumeric character on both sides.  
 Employee IDs must be non-negative integers.  
 Demo  
-A video demo of the program is available here.
+A video demo of the program is available here (https://watch.screencastify.com/v/1oYN24Gox0nMTLaWJTYx).
 
 Tests  
 Run npm test to execute Jest unit tests.
