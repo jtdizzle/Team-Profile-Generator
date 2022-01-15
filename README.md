@@ -38,7 +38,7 @@ The program will ask you a series of questions about the team, starting with the
 
 When you answer 'no' to adding another team member, the program will create the output file `index.html` in the `dist/` subdirectory. Note that it will overwrite any previous files you may have left there.
 
-![Screenshot of sample output](./screen_captures/output_screenshot.png)
+![Screenshot of sample output] https://github.com/jtdizzle/Team-Profile-Generator/blob/main/Screenshot%202022-01-15%20161625.jpg
 
 See the [samples](./samples) folder for examples of the output produced.
 
