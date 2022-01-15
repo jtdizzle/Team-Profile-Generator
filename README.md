@@ -19,8 +19,8 @@ You must have node installed to use this program.
 At the command line terminal of your choice type the following:
 
 ```
-git clone https://github.com/baker-ling/team_profile_generator
-cd team_profile_generator
+git clone https://github.com/jtdizzle/Team-Profile-Generator
+cd Team-Profile-Generator
 npm install
 ```
 
@@ -32,13 +32,13 @@ At the directory where you installed this program, type the following on the com
 node index.js
 ```
 
-The program will ask you a series of questions about the team, starting with the team name and information about the team manager. After you finish entering the information for a team member, the program will ask if you want to add another team member. You can answer 'no' to that question to stop and have the program generate the file, or answer 'yes' to continue.
+The program will ask you a series of questions about the team, starting with the team name and information about the team manager. After you finish entering the information for a team member, the program will ask if you want to add another team member.  
 
 ![Screenshot of text prompt](./screen_captures/prompt_sequence_screenshot.png)
 
 When you answer 'no' to adding another team member, the program will create the output file `index.html` in the `dist/` subdirectory. Note that it will overwrite any previous files you may have left there.
 
-![Screenshot of sample output] (./Screenshot 2022-01-15 161625.jpg)
+![Screenshot of sample output] (Screenshot 2022-01-15 161625.jpg)
 
 See the [samples](./samples) folder for examples of the output produced.
 
