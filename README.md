@@ -40,7 +40,7 @@ When you answer 'no' to adding another team member, the program will create the 
 
 ![Screenshot of sample output] (Screenshot 2022-01-15 161625.jpg)
 
-See the [samples](./samples) folder for examples of the output produced.
+
 
 ### Notes about questions
 
@@ -51,7 +51,7 @@ See the [samples](./samples) folder for examples of the output produced.
 
 ### Demo
 
-A video demo of the program is available [here](./screen_captures/demo.mp4).
+A video demo of the program is available [here](https://watch.screencastify.com/v/1oYN24Gox0nMTLaWJTYx).
 
 ## Tests
 
