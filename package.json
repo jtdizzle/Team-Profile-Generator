@@ -1,0 +1,28 @@
+{
+  "name": "team_profile_generator",
+  "version": "1.0.0",
+  "description": "Generates static team profiles",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtdizzle/Team-Profile-Generator.git"
+  },
+  "author": "Jonathan Taylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtdizzle/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/jtdizzle/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.5",
+    "jest": "^27.2.4"
+  }
+}
+
+

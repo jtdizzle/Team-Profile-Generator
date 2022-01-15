@@ -1,0 +1,3 @@
+The program creates the HTML file output.
+Output will be named 'index.html'.
+Running the program will overwrite the previous output files.
