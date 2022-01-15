@@ -38,7 +38,7 @@ The program will ask you a series of questions about the team, starting with the
 
 When you answer 'no' to adding another team member, the program will create the output file `index.html` in the `dist/` subdirectory. Note that it will overwrite any previous files you may have left there.
 
-![Screenshot of sample output] (Screenshot 2022-01-15 161625.jpg)
+![Screenshot of sample output](Screenshot 2022-01-15 161625.jpg)
 
 
 
