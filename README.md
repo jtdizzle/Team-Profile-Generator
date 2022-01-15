@@ -38,7 +38,7 @@ The program will ask you a series of questions about the team, starting with the
 
 When you answer 'no' to adding another team member, the program will create the output file `index.html` in the `dist/` subdirectory. Note that it will overwrite any previous files you may have left there.
 
-![Screenshot of sample output] https://github.com/jtdizzle/Team-Profile-Generator/blob/main/Screenshot%202022-01-15%20161625.jpg
+![Screenshot of sample output] (./Screenshot 2022-01-15 161625.jpg)
 
 See the [samples](./samples) folder for examples of the output produced.
 
@@ -61,23 +61,23 @@ Run `npm test` to execute Jest unit tests.
 
 If you have any questions, feel free to reach out via one of the following:
 
-- Email: [brian.baker.bdb@gmail.com](mailto:brian.baker.bdb@gmail.com)
-- Github: [@baker-ling](https://github.com/baker-ling)
+- Email: [jtdizzle747@yahoo.com](mailto:jtdizzle747@yahoo.com)
+- Github: [@jtdizzle](https://github.com/jtdizzle)
 
 ## License
 
-This application is distributed under the terms of the [MIT License](./LICENSE).
-Required fields: team names, team members' names, and employee IDs
-Optional fields: email addresses, manager's office number, engineers' GitHub usernames, and interns' school names
-Email addresses must have an atmark (@) surrounded by at least one alphanumeric character on both sides.
-Employee IDs must be non-negative integers.
-Demo
+This application is distributed under the terms of the [MIT License](./LICENSE).  
+Required fields: team names, team members' names, and employee IDs  
+Optional fields: email addresses, manager's office number, engineers' GitHub usernames, and interns' school names  
+Email addresses must have an atmark (@) surrounded by at least one alphanumeric character on both sides.  
+Employee IDs must be non-negative integers.  
+Demo  
 A video demo of the program is available here.
 
-Tests
+Tests  
 Run npm test to execute Jest unit tests.
 
-Questions
+Questions  
 If you have any questions, feel free to reach out via one of the following:
 
 Email: jtdizzle747@yahoo.com
