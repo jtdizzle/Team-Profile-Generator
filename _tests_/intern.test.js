@@ -2,16 +2,16 @@ const Intern = require("../lib/Intern.js");
 
 describe("Intern", () => {
   describe("Constructor", () => {
-    it("should create an object", () => {
-      const intern = new Intern("John Doe", 1, "fake@fake.fake", "University of Placeholders");
+    it("creates an object", () => {
+      const intern = new Intern("Johnny Doe", 1, "fake@email.com", "University of Hogwarts");
       expect(typeof intern).toEqual("object");
     });
 
-    it("should take a name, id, email, and school name and set them as propertties on the object", () => {
-      const name = "John Doe";
+    it("takes a name, id, email, and school name and uses them as properties on the object", () => {
+      const name = "Johnny Doe";
       const id = 1;
-      const email = "john.doe@fake.net";
-      const school = "University of Placeholders";
+      const email = "johnny.doe@email.com";
+      const school = "University of Hogwarts";
       const intern = new Intern(name, id, email, school);
       expect(intern.name).toEqual(name);
       expect(intern.id).toEqual(id);
@@ -21,22 +21,22 @@ describe("Intern", () => {
   });
 
   describe("getSchool", () => {
-    it("should return school name passed to the constructor", () => {
-      const name = "John Doe";
+    it("returns school name passed to the constructor", () => {
+      const name = "Johnny Doe";
       const id = 1;
-      const email = "john.doe@fake.net";
-      const school = "University of Placeholders";
+      const email = "johnny.doe@email.com";
+      const school = "University of Hogwarts";
       const intern = new Intern(name, id, email, school);
       expect(intern.getSchool()).toEqual(school.trim());
     });
   });
 
   describe("getRole", () => {
-    it("should return 'Intern'", () => {
-      const name = " John Doe ";
+    it("returns 'Intern'", () => {
+      const name = " Johnny Doe ";
       const id = 1;
-      const email = "john.doe@fake.net";
-      const school = "University of Placeholders";
+      const email = "johnny.doe@email.com";
+      const school = "University of Hogwarts";
       const intern = new Intern(name, id, email, school);
       expect(intern.getRole()).toEqual("Intern");
     });

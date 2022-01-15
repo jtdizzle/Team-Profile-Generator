@@ -102,9 +102,3 @@ typings/
 # TernJS port file
 .tern-port
 
-# Mac and Windows metafiles
-.DS_Store/
-desktop.ini
-
-# output files
-dist/*.html

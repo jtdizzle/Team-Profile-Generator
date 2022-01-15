@@ -3,18 +3,15 @@ const fs = require('fs');
 const Manager = require('./lib/Manager.js');
 const Engineer = require('./lib/Engineer.js');
 const Intern = require('./lib/Intern.js');
-const inputValidation = require('./lib/inputValidation.js');
-const {createTeamHTMLFile} = require('./lib/createTeamHTMLFile.js');
-const Manager = require('./lib/Manager.js');
-const Engineer = require('./lib/Engineer.js');
-const Intern = require('./lib/Intern.js');
+const inputValidator = require('./lib/inputValidator.js');
+const {makeTeamFile} = require('./lib/makeTeamFile.js');
+
 
 let team = {name: '', employees: [] };
+
 const trimString = str => str.trim();
 
 let highestIdEntered = 0;
-
-
 
 const initialQuestions = [
   {
@@ -23,28 +20,28 @@ const initialQuestions = [
     message: "Team Name's",
     default: 'My Team',
     filter: trimString,
-    validate: inputValidation.validateTeamName
+    validate: inputValidator.validateTeamName
   },
   {
     type: 'input',
     name: 'name',
     message: "Manager's Name",
     filter: trimString,
-    validate: inputValidation.validateEmployeeName
+    validate: inputValidator.validateEmployeeName
   },
   {
     type: 'number',
     name: 'id',
     message: answers => `${answers.name}'s Employee ID`,
     default: () => highestIdEntered + 1,
-    validate: inputValidation.validateId
+    validate: inputValidator.validateId
   },
   {
     type: 'input',
     name: 'email',
     message: answers => `${answers.name}'s Email Address`,
     filter: trimString,
-    validate: inputValidation.validateEmail
+    validate: inputValidator.validateEmail
   },
   {
     type: 'input',
@@ -74,21 +71,21 @@ const employeeQuestionList = [
     name: 'name',
     message: 'Enter employee name',
     filter: trimString,
-    validate: inputValidation.validateEmployeeName
+    validate: inputValidator.validateEmployeeName
   },
   {
     type: 'number',
     name: 'id',
     message: answers => `${answers.name}'s new Employee ID`,
     default: () => highestIdEntered + 1,
-    validate: inputValidation.validateId
+    validate: inputValidator.validateId
   },
   {
     type: 'input',
     name: 'email',
     message: answers => `${answers.name}'s new Email Address`,
     filter: trimString,
-    validate: inputValidation.validateEmail
+    validate: inputValidator.validateEmail
   },
   {
     type: 'input',
@@ -111,7 +108,7 @@ function promptToAddAnother() {
     if (answers.addAnother) {
       promptForNextEmployee();
     } else {
-      createTeamHTMLFile(team);
+      makeTeamFile(team);
     }
   })
 }
